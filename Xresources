@@ -1,0 +1,68 @@
+Xcursor*theme: Neutral_Plus
+
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+#ifdef SRVR_swimmer
+Xft.dpi: 118
+#elif SRVR_mimi
+Xft.dpi: 114
+#elif SRVR_tj
+Xft.dpi: 104
+#endif
+
+URxvt*font: xft:Iosevka:pixelsize=13
+URxvt.scrollBar: false
+URxvt.fading: 10
+!URxvt*faceName: Xft:Iosevka:pixelsize=10
+!URxvt*faceNameDoublesize: Xft:Iosevka:pixelsize=10
+
+xterm*termName: xterm-256color
+xterm*loginShell: true
+xterm*utf8: true
+xterm*renderFont: true
+xterm*cjkWidth: true
+xterm*bellIsUrgent: true
+
+! special
+*.foreground:   #F9D792
+*.cursorColor:  #ca8d67
+
+URxvt.depth: 32
+URxvt.background: rgba:1111/1111/1111/ffff
+URxvt.tintColor: white
+URxvt.shading: 0
+
+! black
+*.color0:       #d8a396
+*.color8:      #e54507
+
+! red
+*.color1:       #9c5033
+*.color9:       #666666
+
+! green
+*.color2:       #606432
+*.color10:       #b4c02d
+
+! yellow
+*.color3:       #ad2f1d
+*.color11:      #b04f41
+
+! blue
+*.color4:       #662038
+*.color12:      #81485c
+
+! magenta
+*.color5:       #6d826f
+*.color13:      #6d826f
+
+! cyan
+*.color6:       #ca8d67
+*.color14:      #ca8d67
+
+! white
+*.color7:       #9c6a5e
+*.color15:      #f4c0b2
