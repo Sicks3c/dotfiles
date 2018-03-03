@@ -3,6 +3,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'pangloss/vim-javascript'
+Plug 'w0ng/vim-hybrid'
 
 Plug 'mxw/vim-jsx'
 
