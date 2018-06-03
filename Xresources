@@ -5,26 +5,25 @@ Xft.hinting:   true
 Xft.rgba:      rgb
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
-#ifdef SRVR_swimmer
-Xft.dpi: 118
-#elif SRVR_mimi
-Xft.dpi: 114
-#elif SRVR_tj
-Xft.dpi: 104
-#endif
 
-URxvt*font: xft:Iosevka:pixelsize=13
-URxvt.scrollBar: false
+XTerm*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1, xft:PowerlineSymbols:size=12
+!URxvt*font: -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1, xft:PowerlineSymbols:size=12
+URxvt.font: xft:Fira Code:pixelsize=16:antialias=true:hinting=true:style=Regular
+URxvt.boldFont: xft:Fira Code:pixelsize=16:antialias=true:hinting=true:style=Bold
+URxvt.italicFont: xft:Fira Code:pixelsize=16:antialias=true:hinting=true:style=Light,Regular
+URxvt.boldItalicFont: xft:Fira Code:pixelsize=16:antialias=true:hinting=true:style=Bold
+
+Rxvt*scrollBar: false
 URxvt.fading: 10
-!URxvt*faceName: Xft:Iosevka:pixelsize=10
+!URxvt*faceName: :DinaMedium10
 !URxvt*faceNameDoublesize: Xft:Iosevka:pixelsize=10
 
-xterm*termName: xterm-256color
-xterm*loginShell: true
-xterm*utf8: true
-xterm*renderFont: true
-xterm*cjkWidth: true
-xterm*bellIsUrgent: true
+!xterm*termName: xterm-256color
+!xterm*loginShell: true
+!xterm*utf8: true
+!xterm*renderFont: true
+!xterm*cjkWidth: true
+!xterm*bellIsUrgent: true
 
 ! special
 *.foreground:   #F9D792
