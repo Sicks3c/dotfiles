@@ -39,10 +39,10 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 -- beautiful.init(awful.util.get_themes_dir() .. "default/theme.lua")
-beautiful.init("/home/sicksince/.config/awesome/default/theme.lua")
+beautiful.init("/root/.config/awesome/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "urxvt"
+terminal = "xterm"
 editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -184,29 +184,28 @@ awful.screen.connect_for_each_screen(function(s)
     -- Each screen has its own tag table.
     -- awful.tag({ "upwork", "web", "dev", "media", "tty"}, s, awful.layout.layouts[1])
     awful.tag.add("UpWork", {
-      icon   = "/home/sicksince/.icons/programming.png",
+      icon   = "/root/Downloads/up.png",
       layout = awful.layout.suit.floating,
       screen = s
 
     })
 
     awful.tag.add("Dev", {
-      icon               = "/home/sicksince/.icons/terminal.png",
-      layout             = awful.layout.suit.tile,
+      icon               = "/root/Downloads/dev.png",
+      layout             = awful.layout.suit.fair,
       master_fill_policy = "master_width_factor",
       gap_single_client  = true,
-      gap                = 15,
+      gap                = 5,
       screen             = s,
       selected           = true,
     })
 
     awful.tag.add("Web", {
-      icon   = "/home/sicksince/.icons/internet.png",
+      icon   = "/root/Downloads/web.png",
       layout = awful.layout.suit.max,
       screen = s,
     })
-
-
+	
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
     -- Create an imagebox widget which will contains an icon indicating which layout we're using.

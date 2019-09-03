@@ -4,9 +4,9 @@
 
 theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "Terminus 9"
 
-theme.bg_normal     = "#222222"
+theme.bg_normal     = "#555555"
 theme.bg_focus      = "#535d6c"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
@@ -73,7 +73,7 @@ theme.titlebar_maximized_button_focus_inactive  = "/usr/share/awesome/themes/def
 theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "/home/sicksince/wallpapers/autumn_wallpaper.jpg"
+theme.wallpaper = "/root/Downloads/real.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
